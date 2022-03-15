@@ -8,12 +8,6 @@
         <div class="post_inner">
           {{ .Content }}
         </div>
-        <div class="post_extra mb-2">
-          {{ partialCached "share" . }}
-        </div>
-        <div>
-        {{ template "_internal/disqus.html" . }}
-        </div>
       </div>
     </div>
     <a href="{{ $.Site.BaseURL }}" class="post_nav"><span class="post_next">The Latest 
