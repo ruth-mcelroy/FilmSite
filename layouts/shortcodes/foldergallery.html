@@ -1,32 +1,51 @@
-    <!-- "site root"\layouts\shortcodes\foldergallery.html -->
 <style>
-        div.gallery {
-            display: flex;
-            flex-wrap: wrap;
+
+    #gallery {
+        /* Prevent vertical gaps */
+        line-height: 0;
+         
+        -webkit-column-count: 3;
+        -webkit-column-gap:   20px;
+        -moz-column-count:    3;
+        -moz-column-gap:      20px;
+        column-count:         3;
+        column-gap:           20px;  
+      }
+      
+      #gallery img {
+        /* Just in case there are inline attributes */
+        width: 100% !important;
+        height: auto !important;
+        margin-top: 10px;
+        margin-bottom: 10px;
+      }
+
+
+      @media (max-width: 1000px) {
+        #gallery {
+        -moz-column-count:    2;
+        -webkit-column-count: 2;
+        column-count:         2;
         }
-        div.gallery a {
-            flex-grow: 1;
-            object-fit: cover;
-            margin: 2px;
-            display: flex;
+      }
+      @media (max-width: 800px) {
+        #gallery {
+        -moz-column-count:    1;
+        -webkit-column-count: 1;
+        column-count:         1;
         }
+      }
 
-        div.gallery a img {            
-            height: 200px;
-            object-fit: cover;
-            flex-grow: 1;
-        }
+</style>
 
-    </style>
-
-
-    <div class="gallery">
+<section id="gallery">
         {{ $path := print "content/" .Page.Dir (.Get "src") }}
-        {{ $url  := print .Page.URL (.Get "src") }}
+        {{ $url  := print .Page.URL }}
         {{ range (readDir $path)  }}            
-            {{ $src := print $url "/" .Name }}                
-            <a  href="{{ $src }}">
-                <img src="{{ $src }}">  <br/>            
-            </a>
+            {{ $src := print $url  .Name }}   
+<a href="{{ $src }}" >            
+<img src="{{ $src }}" href="{{ $src }}">   
+</a>           
+
         {{ end }}
-    </div>
+</section>

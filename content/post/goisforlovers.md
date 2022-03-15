@@ -1,6 +1,5 @@
 +++
 title = "(Hu)go Template Primer"
-description = ""
 tags = [
 "go",
 "golang",
@@ -15,5 +14,8 @@ categories = [
 ]
 image = "artist.jpg"
 +++
+Emoji can be enabled in a Hugo project in a number of ways.
+<!--more--> 
 
-  {{% foldergallery src="images" %}}
+<!-- source of images is folder in same directory with same name as page -->
+  {{% foldergallery src = "goisforlovers" %}}
