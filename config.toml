@@ -1,4 +1,4 @@
-baseURL = "http://filmandother.netlify.app"
+baseURL = "https://filmandother.netlify.app/"
 languageCode = "en-us"
 title = "My New Hugo Site"
 theme = ["newsroom"]
