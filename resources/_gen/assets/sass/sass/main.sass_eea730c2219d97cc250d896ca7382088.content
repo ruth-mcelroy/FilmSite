@@ -10,7 +10,7 @@ html {
   --bg-dark: #000;
   --text: var(--dark);
   --font: 'Metropolis', sans-serif;
-  --theme: rgb(52,199,89);
+  --theme: rgb(150, 25, 191);
   --ease: cubic-bezier(.19,1,.22,1);
 }
 
@@ -20,7 +20,7 @@ html[data-mode="dim"] {
   --bg: var(--bg-dark);
   --text: var(--light);
   --accent: var(--bubble);
-  --theme: rgb(48,209,88);
+  --theme: rgb(223, 128, 255);
 }
 
 html[data-mode="dim"] * {
@@ -42,7 +42,7 @@ html[data-mode="dim"] .color_choice::after {
     --bg: var(--bg-dark);
     --text: var(--light);
     --accent: var(--bubble);
-    --theme: rgb(48,209,88);
+    --theme: rgb(223, 128, 255);
   }
   html:not(.nodarkmode):not([data-mode="lit"]) * {
     box-shadow: none !important;
