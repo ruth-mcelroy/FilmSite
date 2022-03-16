@@ -21,5 +21,5 @@ https://gist.github.com/zjeaton/0cdd7e4bed9d292ab6f3d76b0369f16d
 -  Put main page image in static/images folder and fill in image file name in the page header.
 - Choose one Camera Type in Category and remove the rest
 - Fill in the top line description
-- Create a folder in post with the same name as your post and put all the images you want to appear in there.
+- Create a folder in post with the same name as your post(all lowercase) and put all the images you want to appear in there.
 - push changes
