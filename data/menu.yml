@@ -1,8 +1,6 @@
-- item: About
-  url: about/
-- item: Blog
+- item: All Posts
   url: ""
-- item: Category
+- item: Cameras
   url: categories
-- item: Tag
+- item: Themes
   url: tags
