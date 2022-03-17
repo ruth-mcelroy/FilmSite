@@ -1,7 +1,7 @@
 ---
 title: "Pride"
 date: "2017-07-16T11:32:54Z"
-image: "pride.png"
+image: "pride.jpg"
 categories: ["Flexaret VI",]
 
 ---

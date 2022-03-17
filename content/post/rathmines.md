@@ -6,7 +6,7 @@ categories: [
 "Flexaret VI", ]
 
 ---
-[One line Location/Theme description]
+Rathmines, Dublin and canal
 <!--more--> 
   {{% foldergallery src = "rathmines" %}}
 
