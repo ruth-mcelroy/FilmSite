@@ -1,6 +1,6 @@
 baseURL = "https://filmandother.netlify.app/"
 languageCode = "en-us"
-title = "Film photographs (and maybe some other things)"
+title = "Film photographs (and maybe other things)"
 theme = ["newsroom"]
 
 [markup.goldmark.renderer]
