@@ -1,7 +1,7 @@
 ---
 title: "{{ replace .Name "-" " " | title }}"
 date: "{{ .Date }}"
-image: "[image name]"
+image: "{{ .Name }}.jpg"
 categories: ["Ricoh 500g",
 "Flexaret VI", 
 "Olympus OM1", 
